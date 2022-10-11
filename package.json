@@ -1,0 +1,40 @@
+{
+  "name": "aplintest",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon app.js"
+  },
+  "keywords": [
+    "mongo",
+    "nodejs",
+    "mongoose",
+    "express"
+  ],
+  "author": "Rivers Emmanuel",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "expres": "^0.0.5",
+    "express": "^4.18.2",
+    "helmet": "^6.0.0",
+    "joi": "^17.6.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.5",
+    "path": "^0.12.7",
+    "pug": "^3.0.2",
+    "sharp": "^0.31.1",
+    "swagger-jsdoc": "^6.2.5",
+    "swagger-ui-express": "^4.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

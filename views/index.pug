@@ -1,0 +1,38 @@
+head
+  meta(charset='utf-8')
+  title Formulario de Producto
+  link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css')
+
+  body
+    p APLIN
+    .modal-dialog
+        .modal-content
+          // Modal Header
+          .modal-header
+            button.close(type="button", data-dismiss="modal")
+              span(aria-hidden="true") ×
+              span.sr-only Close
+            h4#myModalLabel.modal-title
+              | Agregar Producto
+          // Modal Body
+          .modal-body
+            //#editForm.form(role='form' method='GET' action='https://www.google.com/')
+            form(role='form' method='GET' action='https://www.google.com/')
+              div.form-group
+                label(for='id') Id:
+                input#id.form-control(type='text', placeholder='add Id' name='Id')
+              div.form-group
+                label(for='sku') Sku:
+                input#email.form-control(type='sku', placeholder='add Sku' name='sku')
+                div.form-group
+                label(for='quantity') Quantity:
+                input#id.form-control(type='text', placeholder='add Quantity' name='quantity')
+              button.btn.btn-primary(type="submit", name="asdf") Agregar
+              button.btn.btn-default(type="button", data-dismiss="modal")
+                | Editar
+          // Modal Footer
+          .modal-footer
+            h4 APLIN
+
+    // footer
+    p.foot.text-xs-center 
