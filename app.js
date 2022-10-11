@@ -42,7 +42,7 @@ const swaggerSpec = {
                 "description": "Development server"
             },
             {
-                "url":"https://restaurant-jrfl.herokuapp.com/",
+                "url":"https://aplin-test.herokuapp.com/",
                 "description": "Production server pruebas"
             }
         ]
